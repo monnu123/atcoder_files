@@ -85,7 +85,9 @@ int main(){
       }
     }else{
       if(find(x)==find(y)){
-        if(x==find(x)){
+        if(x==y){
+          cout<<v<<endl;
+        }else if(x==find(x)){
           if(sign[y]==1){
             cout<<V[y]-v<<endl;
           }else{
